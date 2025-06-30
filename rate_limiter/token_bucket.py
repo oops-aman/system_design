@@ -2,9 +2,9 @@
 Token Bucket is a rate-limiter algorithm for any service. It prevents any user
 spamming a service with loads of requests. The working can be defined as:
     i. There is a bucket with n number of tokens.
-    ii. There is a bucket refiller, filling the buckets, with lets say x number of token per unit time.
-    iii. Whenever a requests arrives, if there is token available in bucket, assign the token to request.
-    iv. If no tokens in bucket, request is dropped, limitting the service access rate.
+   ii. There is a bucket refiller, filling the buckets, with lets say x number of token per unit time.
+  iii. Whenever a requests arrives, if there is token available in bucket, assign the token to request.
+   iv. If no tokens in bucket, request is dropped, limitting the service access rate.
 
 Pros:
     - Easy to implement.
